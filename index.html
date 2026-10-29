@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>CV 웹사이트 · 정영조</title>
+  <meta name="description" content="생체고분자 의료기기 R&amp;D 포트폴리오">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="정영조 · 생체고분자 의료기기 R&amp;D 포트폴리오">
+  <meta property="og:description" content="소재·제형·시험·허가를 연계하는 의료기기 연구개발">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta name="theme-color" content="#F7FBFE">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <button class="brand" id="brand" type="button" aria-label="맨 위로">
+        <span class="brand__mark" aria-hidden="true">YJ</span>
+        <span class="brand__text" id="brandText">R&amp;D PORTFOLIO</span>
+      </button>
+      <nav class="topnav" id="topnav" aria-label="섹션"></nav>
+      <div class="topbar__actions">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="ko">KO</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <button type="button" class="btn btn--ghost" id="printBtn"></button>
+        <button type="button" class="btn btn--primary" id="presentBtn"></button>
+      </div>
+    </div>
+  </header>
+
+  <div id="views">
+    <main class="view" id="view-main" data-view="main"></main>
+  </div>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="data/main.ko.js"></script>
+  <script src="data/main.en.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
